@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Tariffs</string>
+			<key>FooterText</key>
+			<string>Reload app after changing</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Cargo</string>
+			<key>Key</key>
+			<string>cargo</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Titles</key>
+			<array>
+				<string>Remote</string>
+				<string>On</string>
+				<string>Off</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>Default</string>
+				<string>On</string>
+				<string>Off</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Courier</string>
+			<key>Key</key>
+			<string>courier</string>
+			<key>DefaultValue</key>
+			<string>Default</string>
+		</dict>
+	</array>
+</dict>
+</plist>
